@@ -1,0 +1,7 @@
+tengstrom_views:
+  js:
+    assets/js/views_submit_filter.js: {}
+    assets/js/views_reset_filter_fix.js: {}
+  dependencies:
+    - core/drupal
+    - tengstrom_general/global

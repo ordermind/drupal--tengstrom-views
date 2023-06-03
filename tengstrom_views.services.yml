@@ -1,0 +1,10 @@
+services:
+  # Hook handlers
+  tengstrom_views.hook_handlers.views_exposed_form_alter:
+    class: Drupal\tengstrom_views\HookHandlers\ViewsExposedFormAlterHandler
+
+  tengstrom_views.hook_handlers.views_filter_plugins_alter:
+    class: Drupal\tengstrom_views\HookHandlers\ViewsFilterPluginsAlterHandler
+
+  tengstrom_views.hook_handlers.preprocess_views_exposed_form:
+    class: Drupal\tengstrom_views\HookHandlers\PreprocessHandlers\PreprocessViewsExposedFormHandler

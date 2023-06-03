@@ -1,0 +1,11 @@
+name: Tengström Views
+type: module
+package: Tengström Profile
+description: 'Provides Views improvements for the Tengström profile'
+core_version_requirement: '^9'
+
+dependencies:
+  - drupal:views
+  - tengstrom_general:tengstrom_general
+
+version: 0.1.0

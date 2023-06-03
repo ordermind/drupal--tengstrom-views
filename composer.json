@@ -1,0 +1,9 @@
+{
+    "name": "drupal/tengstrom_views",
+    "type": "drupal-module--tengstrom",
+    "require": {
+        "drupal/core": "^9.4",
+        "drupal/tengstrom_general": "dev-master"
+    }
+}
+
