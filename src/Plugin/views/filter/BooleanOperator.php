@@ -33,7 +33,7 @@ class BooleanOperator extends OverriddenClass {
    * Add data attribute with the default value for a grouped filter element.
    * This helps us with the reset fix.
    */
-  public function groupForm(&$form, FormStateInterface $form_state) {
+  public function groupForm(&$form, FormStateInterface $form_state): void {
     parent::groupForm($form, $form_state);
 
     $groupedFilterName = $this->options['group_info']['identifier'] ?? NULL;
