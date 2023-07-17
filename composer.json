@@ -6,11 +6,17 @@
             "type": "vcs",
             "url": "git@github.com:ordermind/drupal--tengstrom-general.git",
             "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:ordermind/drupal--tengstrom-shared.git",
+            "no-api": true
         }
     ],
     "require": {
         "drupal/core": "^9.4 || ^10",
-        "drupal/tengstrom_general": "dev-master"
+        "drupal/tengstrom_general": "dev-master",
+        "ordermind/drupal--tengstrom-shared": "dev-master"
     }
 }
 
