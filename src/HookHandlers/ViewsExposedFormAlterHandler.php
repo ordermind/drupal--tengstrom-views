@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Drupal\tengstrom_views\HookHandlers;
 
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\tengstrom_general\HookHandlers\FormAlterHandlers\FormAlterHandlerInterface;
+use Ordermind\DrupalTengstromShared\HookHandlers\FormAlterHandlerInterface;
 
 class ViewsExposedFormAlterHandler implements FormAlterHandlerInterface {
 
