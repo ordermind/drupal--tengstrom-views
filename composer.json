@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "drupal/core": "^9.4 || ^10",
+        "drupal/core": "^10 || ^11",
         "drupal/tengstrom_general": "dev-master",
         "ordermind/drupal--tengstrom-shared": "dev-master"
     }
